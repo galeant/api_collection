@@ -1,0 +1,21 @@
+_id: req_de9048165cd84ce4bc2e64d898943bc7
+type: Request
+parentId: fld_78a677f4ab25474e9a14daa0ff248e93
+modified: 1677751929067
+created: 1677751926287
+url: tes
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1677751926287
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
