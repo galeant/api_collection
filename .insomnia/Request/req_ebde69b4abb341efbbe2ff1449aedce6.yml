@@ -1,0 +1,47 @@
+_id: req_ebde69b4abb341efbbe2ff1449aedce6
+type: Request
+parentId: fld_b4f7e1ef14814a6a803be3b71ff179ce
+modified: 1677751864393
+created: 1677751864393
+url: "{{baseUrl}}/api/v1/holyboard/reschedule-create"
+name: Submit
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: reservation_id
+      disabled: false
+      value: "14510"
+    - type: text
+      name: date
+      disabled: false
+      value: 2023-02-02
+    - type: text
+      name: time
+      disabled: false
+      value: 22:00
+    - type: text
+      name: table_ids[0][old_table_id]
+      disabled: false
+      value: "7450"
+    - type: text
+      name: table_ids[0][new_table_id]
+      disabled: false
+      value: "7453"
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1677751864393
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

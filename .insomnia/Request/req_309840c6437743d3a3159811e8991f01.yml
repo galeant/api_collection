@@ -1,0 +1,25 @@
+_id: req_309840c6437743d3a3159811e8991f01
+type: Request
+parentId: fld_b4f7e1ef14814a6a803be3b71ff179ce
+modified: 1677751864387
+created: 1677751864387
+url: "{{baseUrl}}/api/v1/holyboard/reschedule-cancel/33"
+name: Cancel
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1677751864387
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

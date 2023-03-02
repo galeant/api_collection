@@ -1,0 +1,29 @@
+_id: req_af4feb31c7ea40cdad0589069f0376fe
+type: Request
+parentId: fld_a32284cbc8e848ecab1d32708d80bbff
+modified: 1677751864434
+created: 1677751864434
+url: https://staging-customer.holywings.id/api/v1/users/brand-ambasador/history
+name: getBrandAmabasadorHistory
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Accept
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: 243491|LgwkTkekdoCjQWiOHh2uV1s5XpRmzXf7B7wm9ZrO
+  prefix: ""
+metaSortKey: -1677751864434
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

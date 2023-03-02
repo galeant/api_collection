@@ -1,0 +1,32 @@
+_id: req_407e44edeb2d490fbf8ef1741aab2843
+type: Request
+parentId: fld_fbc717dea8e546e8b3d218f2b21b8c19
+modified: 1677751864420
+created: 1677751864420
+url: "{{baseUrl}}/api/v1/redeem-voucher-panel/:id"
+name: Redeem Voucher Panel {id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name":"test",
+        "phone_number":"012012",
+        "address":"test address"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1677751864420
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

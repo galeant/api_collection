@@ -1,0 +1,29 @@
+_id: req_82fad6fc9ec04dda8e191bc482fcc560
+type: Request
+parentId: fld_a32284cbc8e848ecab1d32708d80bbff
+modified: 1677751864438
+created: 1677751864438
+url: "{{baseUrl}}/api/v1/users/influencer"
+name: getInfluencerData
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Accept
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: 243491|LgwkTkekdoCjQWiOHh2uV1s5XpRmzXf7B7wm9ZrO
+  prefix: ""
+metaSortKey: -1677751864438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

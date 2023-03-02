@@ -1,0 +1,39 @@
+_id: req_bf2c6b3b33494046a6ef1f8605b7d99e
+type: Request
+parentId: fld_fbc717dea8e546e8b3d218f2b21b8c19
+modified: 1677751864422
+created: 1677751864422
+url: "{{baseUrl}}/api/v1/relay/influencer-get-balance"
+name: Get balance Influencer
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: id_outlet
+      disabled: false
+      value: "1"
+    - type: text
+      name: code
+      disabled: false
+      value: "975858"
+    - type: text
+      name: id_user_pos
+      disabled: false
+      value: "1"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: 822eebff26f1ae457adda99e35ff68af
+  prefix: ""
+metaSortKey: -1677751864422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

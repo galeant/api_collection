@@ -1,0 +1,47 @@
+_id: req_88da27880fcc4d2194946c0bbc88d4cb
+type: Request
+parentId: fld_b4f7e1ef14814a6a803be3b71ff179ce
+modified: 1677751864409
+created: 1677751864409
+url: "{{baseUrl}}/api/v1/holyboard/reschedule-list"
+name: Get Lit
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: date
+      disabled: false
+      value: 2023-01-12
+    - type: text
+      name: reservation_id
+      disabled: false
+      value: "14511"
+    - type: text
+      name: status
+      disabled: false
+      value: "2"
+    - type: text
+      name: keyword
+      disabled: false
+      value: ""
+    - type: text
+      name: paginate
+      disabled: false
+      value: "50"
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1677751864409
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

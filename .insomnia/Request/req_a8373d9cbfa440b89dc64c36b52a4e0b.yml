@@ -1,0 +1,39 @@
+_id: req_a8373d9cbfa440b89dc64c36b52a4e0b
+type: Request
+parentId: fld_fbc717dea8e546e8b3d218f2b21b8c19
+modified: 1677751864424
+created: 1677751864424
+url: "{{baseUrl}}/api/v1/relay/brand-ambasador-validate-qr"
+name: Brand Ambasadro Validate Qr Copy
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: search
+      disabled: true
+      value: "+6287880756869"
+    - type: text
+      name: payload
+      disabled: false
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJ1c2VyX2lkIjoyODU1NzYsImV4cCI6MTY3MjM4NTEzN30.7iT4PgRzbQ6bSUsi6OJ80w08ln6L7vnsEYKYm0ZMsGs
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Accept
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: 822eebff26f1ae457adda99e35ff68af
+  prefix: ""
+metaSortKey: -1677751864424
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

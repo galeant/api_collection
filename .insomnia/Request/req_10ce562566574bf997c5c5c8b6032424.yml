@@ -1,0 +1,29 @@
+_id: req_10ce562566574bf997c5c5c8b6032424
+type: Request
+parentId: fld_a32284cbc8e848ecab1d32708d80bbff
+modified: 1677751864436
+created: 1677751864436
+url: "{{baseUrl}}/api/v1/users/influencer/history"
+name: getInfluencerDataHistory
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Accept
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: 243479|tGKJ0h4et6oYOyePkvuNoKuAwRjpJ64DKiFtKkWG
+  prefix: ""
+metaSortKey: -1677751864436
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
